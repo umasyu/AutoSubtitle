@@ -28,7 +28,7 @@ AviUtl2 のタイムラインへ挿入します。
 ※ 本プラグインには Python / faster-whisper / ffmpeg / CUDA Toolkit は同梱されていません。
 
 環境構成はこちらを参照
-https://qiita.com/taiki_i/items/3d2d0d0b2dd79059f30e
+   https://qiita.com/taiki_i/items/3d2d0d0b2dd79059f30e
 
 ---
 
