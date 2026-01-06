@@ -32,9 +32,9 @@ AviUtl2 のタイムラインへ挿入します。
    https://github.com/umasyu/AutoSubtitle/releases/latest
 
 2. ZIP を解凍し、以下のファイルを AviUtl2 の Plugin フォルダに配置します。
-・AutoSubtitle.dll
-・README.txt
-・LICENSE.txt
+- AutoSubtitle.dll
+- README.txt
+- LICENSE.txt
 
 3. AviUtl2 を起動します。
 
@@ -73,7 +73,7 @@ AviUtl2 のタイムラインへ挿入します。
 - 「詳細ログを有効にする」を ON にした場合のみ、詳細なログが出力されます。
 - エラー発生時は、以下のフォルダにログが出力されます。
 
-C:\ProgramData\aviutl2\Plugin\AutoSubtitle\Logs\
+  - C:\ProgramData\aviutl2\Plugin\AutoSubtitle\Logs\
 
 
 （Python 関連のログは `Logs\Python` フォルダ内に出力されます）
@@ -97,7 +97,7 @@ C:\ProgramData\aviutl2\Plugin\AutoSubtitle\Logs\
 不具合報告・ご要望・ご質問は、以下までご連絡ください。
 
 - **Twitter (X)**  
-  https://twitter.com/（ここにアカウント名を記載）
+  https://x.com/umasyu2525
 
 可能であれば、以下の情報を添えていただけると助かります。
 
