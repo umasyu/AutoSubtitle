@@ -10,19 +10,23 @@ AviUtl2 のタイムラインへ挿入します。
 
 以下の環境が必要です。
 
-- **OS**
-  - Windows 10 / Windows 11（64bit）
+### OS
+- Windows 10 / Windows 11（64bit）
 
-- **対応ソフト**
-  - AviUtl2（最新版推奨）
+### 対応ソフト
+- AviUtl2（最新版推奨）
 
-- **外部ソフトウェア**
-  - Python 3.12（推奨）
-  - faster-whisper
-  - ffmpeg（※任意）
+### 外部ソフトウェア
+- **Python 3.12（推奨）**
+- **faster-whisper**
+- **ffmpeg（任意）**
 
-※ 本プラグインには Python / faster-whisper / ffmpeg は同梱されていません。  
-※ ffmpeg を使用しない場合でも、字幕生成は可能です。
+### GPU を使用する場合（任意）
+- **NVIDIA GPU**
+- **CUDA Toolkit 12.1（必須）**
+
+※ GPU を使用しない場合（CPU実行）は CUDA Toolkit は不要です。  
+※ 本プラグインには Python / faster-whisper / ffmpeg / CUDA Toolkit は同梱されていません。
 
 ---
 
@@ -32,9 +36,9 @@ AviUtl2 のタイムラインへ挿入します。
    https://github.com/umasyu/AutoSubtitle/releases/latest
 
 2. ZIP を解凍し、以下のファイルを AviUtl2 の Plugin フォルダに配置します。
-- AutoSubtitle.dll
-- README.txt
-- LICENSE.txt
+ - AutoSubtitle.dll
+ - README.txt
+ - LICENSE.txt
 
 3. AviUtl2 を起動します。
 
@@ -54,7 +58,19 @@ AviUtl2 のタイムラインへ挿入します。
 - 認識プロファイル・デコード設定の切り替え
 - テキスト整形（改行、文字数制限、フィラー削除など）
 - ffmpeg を使用した音声前処理（ノイズ除去・音量正規化など）
+- CPU / GPU（CUDA）実行の切り替え
 - 詳細ログ出力（デバッグ用途、任意）
+
+---
+
+## GPU（CUDA）使用について
+
+- GPU を使用する場合は **CUDA Toolkit 12.1 が必須**です。
+- CUDA Toolkit がインストールされていない場合、GPU は使用できません。
+- GPU が使用できない場合でも、CPU モードで字幕生成は可能です。
+
+※ NVIDIA ドライバおよび CUDA Toolkit のインストール方法については  
+　NVIDIA 公式サイトをご確認ください。
 
 ---
 
@@ -72,8 +88,7 @@ AviUtl2 のタイムラインへ挿入します。
 
 - 「詳細ログを有効にする」を ON にした場合のみ、詳細なログが出力されます。
 - エラー発生時は、以下のフォルダにログが出力されます。
-
-  - C:\ProgramData\aviutl2\Plugin\AutoSubtitle\Logs\
+ - C:\ProgramData\aviutl2\Plugin\AutoSubtitle\Logs\
 
 
 （Python 関連のログは `Logs\Python` フォルダ内に出力されます）
@@ -87,7 +102,7 @@ AviUtl2 のタイムラインへ挿入します。
 本プラグインは **MIT License** のもとで公開されています。  
 詳細は同梱の `LICENSE.txt` をご確認ください。
 
-※ 本プラグインは Python / faster-whisper / ffmpeg を同梱していません。  
+※ 本プラグインは Python / faster-whisper / ffmpeg / CUDA Toolkit を同梱していません。  
 それらのライセンスについては、各配布元の規約に従ってください。
 
 ---
@@ -104,4 +119,5 @@ AviUtl2 のタイムラインへ挿入します。
 - 発生した問題の内容
 - AviUtl2 のバージョン
 - Python のバージョン
+- CPU / GPU 使用の有無
 - 出力されたログファイル
