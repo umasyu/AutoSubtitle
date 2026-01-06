@@ -17,8 +17,8 @@ AviUtl2 のタイムラインへ挿入します。
 - AviUtl2（最新版推奨）
 
 ### 外部ソフトウェア
-- **Python 3.12（推奨）**
-- **faster-whisper**
+- **Python 3.12（必須）**
+- **faster-whisper（必須）**
 - **ffmpeg（任意）**
 
 ### GPU を使用する場合（任意）
