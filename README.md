@@ -22,7 +22,6 @@ AviUtl2 のタイムラインへ挿入します。
 - **ffmpeg（任意）**
 
 ### GPU を使用する場合（任意）
-- **NVIDIA GPU**
 - **CUDA Toolkit 12.1（必須）**
 
 ※ GPU を使用しない場合（CPU実行）は CUDA Toolkit は不要です。  
