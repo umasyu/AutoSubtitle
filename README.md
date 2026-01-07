@@ -21,14 +21,16 @@ AviUtl2 のタイムラインへ挿入します。
  https://www.python.org/downloads/release/python-3120/
 - **faster-whisper（必須）**
 - **ffmpeg（任意）**
+  https://www.ffmpeg.org/download.html
 
 ### GPU を使用する場合（任意）
 - **CUDA Toolkit 12.1（必須）**
+  https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
 
 ※ GPU を使用しない場合（CPU実行）は CUDA Toolkit は不要です。  
 ※ 本プラグインには Python / faster-whisper / ffmpeg / CUDA Toolkit は同梱されていません。
 
-### 環境構成はこちらを参照
+### 外部ソフトの導入方法はこちらを参照
 - https://qiita.com/taiki_i/items/3d2d0d0b2dd79059f30e
 
 ---
