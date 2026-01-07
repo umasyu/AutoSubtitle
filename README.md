@@ -123,3 +123,16 @@ AviUtl2 のタイムラインへ挿入します。
 - Python のバージョン
 - CPU / GPU 使用の有無
 - 出力されたログファイル
+
+---
+
+##宣伝
+
+普段は配信活動と動画投稿活動をしていますので良ければ応援してください。
+
+-https://www.twitch.tv/umasyu_ttv
+-https://www.youtube.com/@UMASYUChannel
+
+また、Discordサーバーを運営しているので、気になったら参加してみてください。
+
+-discord.com/invite/9A693VGghp
