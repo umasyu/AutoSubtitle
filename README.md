@@ -145,4 +145,4 @@ AviUtl2 のタイムラインへ挿入します。
 また、Discordサーバーを運営しているので、気になったら参加してみてください。
 
 - **Discord鯖**  
-   discord.com/invite/9A693VGghp
+   [discord.com/invite/9A693VGghp](https://discord.com/invite/9A693VGghp)
