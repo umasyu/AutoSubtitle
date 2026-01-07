@@ -130,9 +130,13 @@ AviUtl2 のタイムラインへ挿入します。
 
 普段は配信活動と動画投稿活動をしていますので良ければ応援してください。
 
--https://www.twitch.tv/umasyu_ttv
--https://www.youtube.com/@UMASYUChannel
+- **Twitch**
+   https://www.twitch.tv/umasyu_ttv
+  
+- **Youtube**  
+   https://www.youtube.com/@UMASYUChannel
 
 また、Discordサーバーを運営しているので、気になったら参加してみてください。
 
--discord.com/invite/9A693VGghp
+- **Discord鯖**  
+   discord.com/invite/9A693VGghp
