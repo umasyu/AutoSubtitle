@@ -130,7 +130,7 @@ AviUtl2 のタイムラインへ挿入します。
 
 普段は配信活動と動画投稿活動をしていますので良ければ応援してください。
 
-- **Twitch**
+- **Twitch**  
    https://www.twitch.tv/umasyu_ttv
   
 - **Youtube**  
