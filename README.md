@@ -14,7 +14,7 @@ AviUtl2 のタイムラインへ挿入します。
 - Windows 10 / Windows 11（64bit）
 
 ### 対応ソフト
-- AviUtl2（最新版推奨）
+- AviUtl2
 
 ### 外部ソフトウェア
 - **Python 3.12（必須）**
