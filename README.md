@@ -30,10 +30,10 @@ AviUtl2 のタイムラインへ挿入します。
 ※ GPU を使用しない場合（CPU実行）は CUDA Toolkit は不要です。  
 ※ 本プラグインには Python / faster-whisper / ffmpeg / CUDA Toolkit は同梱されていません。
 
-### 外部ソフトの導入方法はこちらを参照
+#### 外部ソフトの導入方法はこちらを参照
   https://qiita.com/taiki_i/items/3d2d0d0b2dd79059f30e
 
-### pipがエラーはく場合はPATHを設定できていないので、こちらを参照
+#### pipがエラーはく場合はPATHを設定できていないので、こちらを参照
   https://www.javadrive.jp/python/install/index3.html#section1
 
 ---
