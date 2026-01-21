@@ -43,8 +43,8 @@ AviUtl2 のタイムラインへ挿入します。
 1. GitHub の Releases ページから最新版の ZIP をダウンロードします。  
    https://github.com/umasyu/AutoSubtitle/releases/latest
 
-2. ZIP を解凍し、以下のファイルを AviUtl2 の Plugin フォルダに配置します。
- - AutoSubtitle.dll
+2. ZIP を解凍すると、以下のファイルがあるため、その中の AutoSubtitle.aux2 を AviUtl2 の Plugin フォルダに配置します。
+ - AutoSubtitle.aux2
  - README.txt
  - LICENSE.txt
 
